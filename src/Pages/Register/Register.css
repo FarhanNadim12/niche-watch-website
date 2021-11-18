@@ -1,0 +1,54 @@
+.form-container{
+    margin-left: 35%;
+    margin-right:25%;
+    margin-top: 200px;
+    width: 20%;
+    background-color: skyblue;
+    padding: 30px 25px;
+    border-radius: 5px;
+}
+.form-container input{
+    margin-left: 15%;
+    margin-right: 25%;
+    margin-bottom: 10px;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+    line-height: 35px;
+}
+.registerBtn{
+    display: block;
+    margin: auto;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.googleSignin{
+    display: block;
+    margin: auto;
+   margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+@media only screen and (max-width:668px) {
+    .form-container{
+        margin-left: 15%;
+        margin-right:25%;
+        margin-top: 200px;
+        width: 70%;
+        background-color: skyblue;
+        padding: 20px 25px;
+    }
+    .form-container input{
+        margin-left: 15%;
+        
+        margin-bottom: 10px;
+        width: 70%;
+    }
+    .registerBtn{
+        display: block;
+        margin: auto;
+    }
+}
